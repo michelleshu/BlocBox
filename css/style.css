@@ -77,6 +77,28 @@ p {
   }
 }
 
+@media tv and (min-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  
+  .container.hero h1 {
+    font-size: 60px;
+    margin-top: 45px;
+  }
+  
+  .container.hero p {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 20px 0 60px;
+  }
+  
+  .container.hero .btn {
+    padding: 10px 100px;
+    font-size: 28px;
+  }
+}
+
 /* HEADER */
 header {
   color:#FFFFFF;
