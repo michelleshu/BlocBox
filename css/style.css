@@ -486,6 +486,25 @@ footer .right-footer-block {
   margin-right: 10px;
   margin-top: 8px;
 }
+.left-nav .settings .menu.drop-up.dropit {
+  margin: 0 5px 0 0;
+}
+.left-nav .settings .menu.drop-up.dropit ul.dropit-submenu {
+  right: -1px;
+  top: -120px;
+  min-width: 120px;
+  padding: 10px 20px;
+}
+.left-nav .settings .menu.drop-up.dropit ul.dropit-submenu li a {
+  float: left;
+  text-align: left;
+  margin: 8px 0;
+}
+.left-nav .settings .menu.drop-up.dropit .dropit-open .dropit-submenu:after {
+  border-width: 8px 8px 0;
+  border-color: #FFFFFF transparent transparent;
+  top: 88px;
+}
 @media (min-width:992px) {
   .left-nav {
     height: 100vh;
